@@ -22,9 +22,7 @@ A modern, responsive personal portfolio website built with **React, Vite, Bootst
 
 Frontend (GitHub Pages)
 
-<a href="https://bandari-harish.github.io/HB-PORTFOLIO/" target="_blank">
-    🌐 Live Demo
-</a>
+🔗 [Live Demo](https://bandari-harish.github.io/HB-PORTFOLIO/)
 
 Backend API (Render)
 
@@ -352,17 +350,9 @@ See the [LICENSE](LICENSE) file for more information.
 
 **Harish Bandari**
 
-GitHub
+GitHub: [GitHub Profile](https://github.com/Bandari-Harish)
 
-<a href="https://github.com/Bandari-Harish">
-    GitHub Profile
-</a>
-
-Repository
-
-<a href="https://github.com/Bandari-Harish/HB-PORTFOLIO">
-    GitHub Repository
-</a>
+Repository: [GitHub Repository](https://github.com/Bandari-Harish/HB-PORTFOLIO)
 
 ---
 
