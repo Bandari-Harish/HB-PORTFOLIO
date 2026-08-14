@@ -31,7 +31,7 @@ function LoginPage() {
     try {
       setLoading(true);
       const { data } = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://hb-portfolio-n59p.onrender.com/api/auth/login",
         formData,
       );
       localStorage.setItem("token", data.token);
