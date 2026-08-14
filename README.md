@@ -8,15 +8,13 @@ A modern, responsive personal portfolio website built with **React, Vite, Bootst
 
 ## 📸 Preview
 
-Screenshots are coming soon.
+### 🏠 Home Section
 
-> Replace the placeholders below once screenshots are captured:
+![Home Section](Frontend/public/assets/images/home.png)
 
-```
-![Home Section](screenshots/home.png)
-![Projects Section](screenshots/projects.png)
-![Admin Dashboard](screenshots/dashboard.png)
-```
+### 🔐 Admin Dashboard
+
+![Admin Dashboard](Frontend/public/assets/images/admin.png)
 
 ---
 
