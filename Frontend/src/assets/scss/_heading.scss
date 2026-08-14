@@ -1,0 +1,44 @@
+.section-heading {
+  margin-bottom: 3rem;
+
+  .section-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--foreground-950);
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: var(--foreground-600);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--secondary);
+
+  &::after {
+    content: '';
+    display: block;
+    width: 80px; height: 4px;
+    background: var(--gradient-2);
+    margin: 0.75rem auto 0;
+    border-radius: 4px;
+  }
+}

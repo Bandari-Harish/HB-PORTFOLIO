@@ -1,0 +1,91 @@
+.experience,
+.education {
+  background: var(--background-50);
+}
+
+.timeline-container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline-title {
+  color: var(--foreground-950);
+}
+
+.timeline-subtitle {
+  color: var(--foreground-600);
+}
+
+.timeline-date,
+.timeline-list-item {
+  color: var(--foreground-500);
+}
+
+.timeline-line {
+  position: absolute;
+  left: 16px; top: 0; bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, rgba(99, 102, 241, 0.4), rgba(139, 92, 246, 0.4), rgba(34, 211, 238, 0.4));
+
+  @media (min-width: 768px) {
+    left: 50%;
+    transform: translateX(-1px);
+  }
+}
+
+.timeline-items {
+  transition: all 0.7s ease;
+
+  & > .d-flex { position: relative; }
+}
+
+.timeline-dot {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  background: var(--background-50);
+  flex-shrink: 0;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+
+  @media (min-width: 768px) { left: 50%; }
+}
+
+.exp-badge {
+  display: inline-flex;
+  padding: 0.25rem 0.625rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.exp-badge-fulltime {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.exp-badge-internship {
+  background: var(--accent-light);
+  color: var(--accent);
+}
+
+.exp-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--primary);
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+
+  &:hover,
+  .card.hover-scale:hover {
+    transform: scale(1.02) !important;
+  }
+}
