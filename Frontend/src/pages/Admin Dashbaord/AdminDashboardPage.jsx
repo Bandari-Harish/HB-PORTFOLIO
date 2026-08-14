@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useTheme } from "../../utilities/context/ThemeContext";
 import { usePortfolio } from "../../utilities/context/PortfolioContext";
 import Profile from "./Profile";
@@ -28,9 +28,9 @@ function AdminDashboardPage() {
         </div>
 
         <div className="d-flex align-items-center gap-2">
-          <a href="/" className="btn btn-outline-primary btn-sm rounded-pill">
+          <Link to="/" className="btn btn-outline-primary btn-sm rounded-pill">
             <i className="fa-solid fa-arrow-left me-1"></i> Back to Site
-          </a>
+          </Link>
           <button
             className="theme-toggle-btn"
             onClick={toggleTheme}

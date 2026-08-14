@@ -9,7 +9,7 @@ import AdminDashboardPage from "../pages/Admin Dashbaord/AdminDashboardPage";
 function AppRoutes() {
   return (
     <PortfolioProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/HB-PORTFOLIO">
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route element={<ProtectedRoute />}>
